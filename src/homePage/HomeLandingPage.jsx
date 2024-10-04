@@ -1,6 +1,4 @@
 
-import Footer from "../components/Footer"
-import Header from "../components/Header"
 import MainContent from "../components/MainContent"
 
 
@@ -8,9 +6,9 @@ import MainContent from "../components/MainContent"
 const HomeLandingPage = () => {
   return (
     <section className="h-screen flex items-center justify-evenly flex-col">
-      <Header />
+     <h1>ppppppppppppppppppppppppppppppppppppp</h1>
       <MainContent />
-      <Footer />
+ 
     </section>
   )
 }
