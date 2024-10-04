@@ -1,27 +1,30 @@
-#root {
+/* #root {
   max-width: 1280px;
-
   text-align: center;
-}
+  margin: 0 auto;
+  padding: 0;
+} */
 
 .logo {
   height: 4em;
   width: 4em;
   border-radius: 50%;
-  background: #8486e2;
+  background: #3e087c;
   align-items: center;
   display: flex;
   justify-content: center;
+  backdrop-filter: filter;
 }
 .logo::before {
   content: "";
   padding: 1em;
   height: 2.5em;
   width: 2.5em;
-  background-color: #8b8ce2;
+  background-color: #6314be;
   border-radius: 50%;
   z-index: 1;
+  
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #6238fcaa);
 }
